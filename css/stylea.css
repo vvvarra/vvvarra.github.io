@@ -82,6 +82,12 @@ ul li {
 
 img {
     vertical-align: top;
+    
+    
+    img{
+    object-fit: contain;
+}
+    
 }
 h1,
 h2,
