@@ -57,6 +57,10 @@ button {
     cursor: pointer;
 }
 
+img{
+    object-fit: contain;
+}
+
 button::-moz-focus-inner {
     padding: 0;
     border: 0;
@@ -391,7 +395,7 @@ button:hover{
 
 .textp{
     display: flex;
-    max-width: 65%;
+    max-width: 68%;
     flex-wrap: wrap;
     justify-content: space-between;
 }
@@ -932,11 +936,16 @@ button:hover{
     }
 
     .item h2{
-        font-size: 31px;
+        font-size: 25px;
     }
 
     .item p{
-        font-size: 9px;
+        font-size: 6px;
+    }
+
+    .item h2,
+    .item p{
+        line-height: 23px;
     }
 
     .textp{
